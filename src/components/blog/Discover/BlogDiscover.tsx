@@ -6,7 +6,7 @@ import Container from "@/components/shared/Container";
 import Section from "@/components/shared/Section";
 
 export default function BlogDiscover() {
-  const [view, setView] = useState<"row" | "grid">("row");
+  const [view, setView] = useState<"row" | "grid">("grid");
   return (
     <Section className="relative h-auto">
       <div className="absolute top-0 left-0 w-full h-full z-10">

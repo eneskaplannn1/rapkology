@@ -11,22 +11,23 @@ import Section from "@/components/shared/Section";
 import Container from "@/components/shared/Container";
 import Title from "@/components/shared/Title";
 
-export default function Favorites() {
+export default function MonthlyFavorites() {
   const [activeIndex, setActiveIndex] = useState(0);
   const totalSlides = favSlides.length;
 
   return (
     <Section className="h-auto relative">
       <MusicPlatformsBanner />
-      <Container size="main" className="grid grid-cols-6 justify-between">
+      <Container size="main" className="grid grid-cols-7 justify-between">
         <Title
-          title="AYIN FAVORİLERİ"
+          title="AYIN"
+          subtitle="FAVORİLERİ"
           icon={false}
           className="col-span-3 mt-12"
         />
-        <div className="flex flex-col w-full col-span-3">
+        <div className="flex flex-col w-full col-span-4">
           <Swiper
-            spaceBetween={10}
+            spaceBetween={50}
             slidesPerView={2.5}
             className="w-full"
             onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
@@ -37,7 +38,6 @@ export default function Favorites() {
               </SwiperSlide>
             ))}
           </Swiper>
-          {/* Progress Bar */}
           <div className="relative w-full h-2 mt-8 ">
             <div className="absolute left-0 top-0 w-full h-full bg-[#2A2A2A] rounded-full opacity-30" />
             <div

@@ -5,7 +5,7 @@ import Title from "../../shared/Title";
 import TrendRow from "./TrendRow";
 import { trends } from "@/data/constants";
 
-export default function Trends() {
+export default function TrendingNews() {
   return (
     <Section className="h-auto relative">
       <Container size="main" className="flex flex-col h-full">

@@ -6,7 +6,7 @@ import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
-import { EffectFade, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import Section from "../shared/Section";
 import WaveEffect from "../shared/WaveEffect";
 
@@ -29,10 +29,9 @@ const slides = [
     buttonText: "Devamını Oku",
     buttonLink: "/link",
   },
-  // Add more slides here if needed
   {
     id: 2,
-    backgroundImage: "/Images/HomeSinger.png", // You can change this to different image
+    backgroundImage: "/Images/HomeSinger.png",
     title: "SECOND SLIDE",
     subtitle: "ANOTHER SLIDE CONTENT",
     buttonText: "Explore",
@@ -40,7 +39,7 @@ const slides = [
   },
 ];
 
-export default function Home(): React.ReactElement {
+export default function HeroSection(): React.ReactElement {
   const prevRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
   const swiperRef = useRef<SwiperType | null>(null);
@@ -67,10 +66,8 @@ export default function Home(): React.ReactElement {
 
   return (
     <Section className="relative w-screen  overflow-hidden h-[800px]">
-      {/* Background Image - Outside Swiper */}
       <div className="absolute inset-0 w-full h-full">
         <div className="relative w-full h-full">
-          {/* Image positioned on the left */}
           <div className="absolute right-[20%] top-20 w-full h-full overflow-hidden">
             <Image
               src={
@@ -89,7 +86,6 @@ export default function Home(): React.ReactElement {
         </div>
       </div>
 
-      {/* Custom Navigation Buttons */}
       <button
         ref={prevRef}
         className="absolute left-[4.24vw] top-1/2 -translate-y-1/2 z-[60] w-[1.39vw] h-[1.39vw]"
@@ -106,7 +102,6 @@ export default function Home(): React.ReactElement {
         <Image src="/vectors/right.svg" alt="Next" fill />
       </button>
 
-      {/* Swiper for content only */}
       <Swiper
         onSwiper={(swiper) => {
           swiperRef.current = swiper;

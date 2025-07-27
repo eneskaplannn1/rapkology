@@ -1,5 +1,5 @@
-import DiscoverCardGrid from "@/components/main/Discover/Left/DiscoverCardGrid";
-import DiscoverCardRow from "@/components/main/Discover/Left/DiscoverCardRow";
+import DiscoverCardGrid from "@/components/main/Discover/ContentFeed/DiscoverCardGrid";
+import DiscoverCardRow from "@/components/main/Discover/ContentFeed/DiscoverCardRow";
 import DiscoverCategoryRow from "@/components/shared/Discover/DiscoverCategoryRow";
 import { discoverCards } from "@/data/constants";
 import React from "react";

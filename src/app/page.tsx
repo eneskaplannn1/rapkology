@@ -1,18 +1,18 @@
-import Discover from "@/components/main/Discover/Discover";
-import Favorites from "@/components/main/Favorites/Favorites";
-import Home from "@/components/main/Home";
-import Trends from "@/components/main/Trends/Trends";
-import Twitch from "@/components/main/Twitch";
+import ContentDiscovery from "@/components/main/Discover/ContentDiscovery";
+import MonthlyFavorites from "@/components/main/Favorites/MonthlyFavorites";
+import HeroSection from "@/components/main/HeroSection";
+import TrendingNews from "@/components/main/Trends/TrendingNews";
+import LiveStreamPromo from "@/components/main/LiveStreamPromo";
 import React from "react";
 
 export default function page() {
   return (
     <main className="flex-1">
-      <Home />
-      <Twitch />
-      <Trends />
-      <Favorites />
-      <Discover />
+      <HeroSection />
+      <LiveStreamPromo />
+      <TrendingNews />
+      <MonthlyFavorites />
+      <ContentDiscovery />
     </main>
   );
 }

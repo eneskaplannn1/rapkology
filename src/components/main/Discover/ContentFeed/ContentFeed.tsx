@@ -5,7 +5,7 @@ import DiscoverCardGrid from "./DiscoverCardGrid";
 import DiscoverHeader from "@/components/shared/Discover/DiscoverHeader";
 import { discoverCards as initialCards } from "@/data/constants";
 
-export default function Left() {
+export default function ContentFeed() {
   const [view, setView] = useState<"row" | "grid">("row");
   const [cards, setCards] = useState(initialCards);
   const [loading, setLoading] = useState(false);
@@ -13,9 +13,9 @@ export default function Left() {
   const handleMore = () => {
     setLoading(true);
     setTimeout(() => {
-      setCards((prev) => [...prev, ...prev]); // duplicate
+      setCards((prev) => [...prev, ...prev]);
       setLoading(false);
-    }, 1000);
+    }, 500);
   };
 
   return (
@@ -49,20 +49,6 @@ export default function Left() {
           )}
           {loading ? "Yükleniyor..." : "Daha Fazla"}
         </button>
-        {/* Spinner styles */}
-        <style jsx>{`
-          .animate-spin {
-            animation: spin 1s linear infinite;
-          }
-          @keyframes spin {
-            0% {
-              transform: rotate(0deg);
-            }
-            100% {
-              transform: rotate(360deg);
-            }
-          }
-        `}</style>
       </div>
     </>
   );

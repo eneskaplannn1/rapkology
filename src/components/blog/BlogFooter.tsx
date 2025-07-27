@@ -105,7 +105,7 @@ export default function BlogFooter() {
             <h2 className="text-white text-[2.78vw] font-saira-bold uppercase mb-10">
               Gelişmelerden ilk sen <br /> haberdar ol!
             </h2>
-            <form className="w-full max-w-xl bg-[#181818] rounded-xl p-2 flex items-center gap-4 border-2 border-white relative">
+            <form className="w-full max-w-xl bg-[#181818] rounded-xl p-2 flex items-center gap-4  relative">
               <input
                 type="email"
                 className="flex-1 bg-transparent outline-none text-white font-extrabold text-base sm:text-lg placeholder-white placeholder:font-extrabold placeholder:text-base sm:placeholder:text-lg px-2 py-2 border-none pr-32"

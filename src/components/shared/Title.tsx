@@ -3,11 +3,13 @@ import React from "react";
 
 export default function Title({
   title,
+  subtitle,
   icon,
   className,
   titleClassName,
 }: {
   title: string;
+  subtitle?: string;
   icon: string | boolean;
   className?: string;
   titleClassName?: string;
@@ -15,9 +17,15 @@ export default function Title({
   return (
     <div className={`flex flex-row gap-x-8 ${className}`}>
       <h1
-        className={`text-white text-[5vw] font-saira-extrabold leading-tight text-left ${titleClassName}`}
+        className={`text-white text-[5vw] font-saira-extrabold leading-none text-left ${titleClassName}`}
       >
-        {title}
+        {title}{" "}
+        {subtitle && (
+          <>
+            <br />
+            {subtitle}
+          </>
+        )}
       </h1>
       {icon && <Image src={icon} alt="icon" width={53} height={53} />}
     </div>

@@ -136,16 +136,18 @@ export default function CTO() {
         </div>
       </div>
       <div className="text-[0.97vw]">
-        <div className="flex flex-row  items-center gap-6 my-10">
-          {socials.map((social, idx) => social.svg)}
+        <div className="flex flex-row  items-center gap-x-8 my-10">
+          {socials.map((social, idx) => (
+            <button key={idx}>{social.svg}</button>
+          ))}
         </div>
         <div className="flex flex-col justify-between items-center text-white mb-4 gap-4">
           <div className="flex flex-col  w-full justify-between gap-4 font-saira-normal ">
             <div className="flex flex-row justify-between ">
-              <span>HABERLER</span>
-              <span>MÜZİK</span>
-              <span>VİDEOLAR</span>
-              <span>İLETİŞİM</span>
+              <button>HABERLER</button>
+              <button>MÜZİK</button>
+              <button>VİDEOLAR</button>
+              <button>İLETİŞİM</button>
             </div>
           </div>
         </div>

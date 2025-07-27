@@ -6,7 +6,8 @@ export const discoverCards: DiscoverCard[] = [
     avatar: "/Images/Trends/avatar1.png",
     name: "Jonathan Stewart",
     date: "29 Mart 2022",
-    title: "Lorem ipsum dolor sit amet consectetur ",
+    title:
+      "Lorem ipsum dolor sit amet consectetur  , Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.  Mauris nec leo non libero sodales lobortis. Quisque a neque preti ... ",
     subtitle:
       "Mauris nec leo non libero sodales lobortis. Quisque a neque preti ...",
   },
@@ -15,7 +16,8 @@ export const discoverCards: DiscoverCard[] = [
     avatar: "/Images/Trends/avatar2.png",
     name: "Jonathan Stewart",
     date: "29 Mart 2022",
-    title: "Lorem ipsum dolor sit amet consectetur ",
+    title:
+      "Lorem ipsum dolor sit amet consectetur  , Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.  Mauris nec leo non libero sodales lobortis. Quisque a neque preti ... ",
     subtitle:
       "Mauris nec leo non libero sodales lobortis. Quisque a neque preti ...",
   },
@@ -24,7 +26,8 @@ export const discoverCards: DiscoverCard[] = [
     avatar: "/Images/Trends/avatar3.png",
     name: "Jonathan Stewart",
     date: "29 Mart 2022",
-    title: "Lorem ipsum dolor sit amet consectetur ",
+    title:
+      "Lorem ipsum dolor sit amet consectetur  , Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.  Mauris nec leo non libero sodales lobortis. Quisque a neque preti ... ",
     subtitle:
       "Mauris nec leo non libero sodales lobortis. Quisque a neque preti ...",
   },
@@ -33,7 +36,8 @@ export const discoverCards: DiscoverCard[] = [
     avatar: "/Images/Trends/avatar1.png",
     name: "Jonathan Stewart",
     date: "29 Mart 2022",
-    title: "Lorem ipsum dolor sit amet consectetur ",
+    title:
+      "Lorem ipsum dolor sit amet consectetur  , Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.  Mauris nec leo non libero sodales lobortis. Quisque a neque preti ... ",
     subtitle:
       "Mauris nec leo non libero sodales lobortis. Quisque a neque preti ...",
   },
@@ -42,7 +46,8 @@ export const discoverCards: DiscoverCard[] = [
     avatar: "/Images/Trends/avatar2.png",
     name: "Jonathan Stewart",
     date: "29 Mart 2022",
-    title: "Lorem ipsum dolor sit amet consectetur ",
+    title:
+      "Lorem ipsum dolor sit amet consectetur  , Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.  Mauris nec leo non libero sodales lobortis. Quisque a neque preti ... ",
     subtitle:
       "Mauris nec leo non libero sodales lobortis. Quisque a neque preti ...",
   },
@@ -113,48 +118,42 @@ export const trends = [
     number: "01",
     name: "Jonathan Stewart",
     avatar: "/Images/Trends/avatar1.png",
-    title:
-      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT UT ET MASSA MI.",
+    title: "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ",
     link: "Daha Fazla Oku",
   },
   {
     number: "02",
     name: "Steve Rogerson",
     avatar: "/Images/Trends/avatar2.png",
-    title:
-      "PRAESENT LOREM ORCI, MATTIS NON EFFICITUR ID CURABITUR AT RISUS SODALES AENEAN AT.",
+    title: "PRAESENT LOREM ORCI, MATTIS NON EFFICITUR ",
     link: "Daha Fazla Oku",
   },
   {
     number: "03",
     name: "Ismail Kor",
     avatar: "/Images/Trends/avatar3.png",
-    title:
-      "ULTRICIES DIGNISSIM NIBH UT CURSUS. NAM ET QUAM SIT AMET TURPIS FINIBUS MAXIMUS ...",
+    title: "ULTRICIES DIGNISSIM NIBH UT CURSUS. ",
     link: "Daha Fazla Oku",
   },
   {
     number: "04",
     name: "Jonathan Stewart",
     avatar: "/Images/Trends/avatar1.png",
-    title:
-      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT UT ET MASSA MI.",
+    title: "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
     link: "Daha Fazla Oku",
   },
   {
     number: "05",
     name: "Steve Rogerson",
     avatar: "/Images/Trends/avatar2.png",
-    title:
-      "PRAESENT LOREM ORCI, MATTIS NON EFFICITUR ID CURABITUR AT RISUS SODALES AENEAN AT.",
+    title: "PRAESENT LOREM ORCI, MATTIS NON EFFICITUR ",
     link: "Daha Fazla Oku",
   },
   {
     number: "06",
     name: "Ismail Kor",
     avatar: "/Images/Trends/avatar3.png",
-    title:
-      "ULTRICIES DIGNISSIM NIBH UT CURSUS. NAM ET QUAM SIT AMET TURPIS FINIBUS MAXIMUS ...",
+    title: "ULTRICIES DIGNISSIM NIBH UT CURSUS. NAM ET QUAM",
     link: "Daha Fazla Oku",
   },
 ];
@@ -175,5 +174,36 @@ export const blogCards = [
   {
     image: "/Images/Discover/card-4.png",
     title: "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING",
+  },
+];
+
+export const heroSlides = [
+  {
+    id: 1,
+    image: "/Images/Blog/hero.png",
+    title: "LOREM FT - IPSUM",
+    description:
+      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT UT ET MASSA MI. MAURIS NEC LEO NON LIBERO SODALES LOBORTIS. QUISQUE A NEQUE PRETI ...",
+  },
+  {
+    id: 2,
+    image: "/Images/Blog/hero.png",
+    title: "SECOND HERO SLIDE",
+    description:
+      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT UT ET MASSA MI. MAURIS NEC LEO NON LIBERO SODALES LOBORTIS. QUISQUE A NEQUE PRETI ...",
+  },
+  {
+    id: 3,
+    image: "/Images/Blog/hero.png",
+    title: "THIRD HERO SLIDE",
+    description:
+      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT UT ET MASSA MI. MAURIS NEC LEO NON LIBERO SODALES LOBORTIS. QUISQUE A NEQUE PRETI ...",
+  },
+  {
+    id: 4,
+    image: "/Images/Blog/hero.png",
+    title: "FOURTH HERO SLIDE",
+    description:
+      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT UT ET MASSA MI. MAURIS NEC LEO NON LIBERO SODALES LOBORTIS. QUISQUE A NEQUE PRETI ...",
   },
 ];
