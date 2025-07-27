@@ -42,7 +42,9 @@ export default function MonthlyFavorites() {
             <div className="absolute left-0 top-0 w-full h-full bg-[#2A2A2A] rounded-full opacity-30" />
             <div
               className="absolute left-0 top-0 h-full bg-[#F0E74D] rounded-full transition-all duration-300"
-              style={{ width: `${((activeIndex + 1) / totalSlides) * 100}%` }}
+              style={{
+                width: `${((activeIndex + 2) / totalSlides) * 100}%`,
+              }}
             />
           </div>
         </div>

@@ -94,12 +94,12 @@ export default function CTO() {
 
   return (
     <div className="w-full bg-[#121212] py-12 flex flex-col mt-10  ">
-      <div className="flex flex-col ">
-        <h2 className="text-white text-[2.78vw] font-saira-bold uppercase mb-10">
-          Gelişmelerden ilk sen <br /> haberdar ol!
+      <div className="flex flex-col">
+        <h2 className="text-white text-[2.78vw] font-saira-bold uppercase mb-10 leading-10">
+          Gelişmelerden ilk sen haberdar ol!
         </h2>
         <div className="w-full flex justify-center items-center">
-          <form className="w-full max-w-xl bg-[#181818] rounded-xl p-2 flex items-center gap-4 border-2 border-white relative">
+          <form className="w-full max-w-xl bg-[#181818] rounded-xl p-2 flex items-center gap-4  relative">
             <input
               type="email"
               className="flex-1 bg-transparent outline-none text-white font-extrabold text-base sm:text-lg placeholder-white placeholder:font-extrabold placeholder:text-base sm:placeholder:text-lg px-2 py-2 border-none pr-32"

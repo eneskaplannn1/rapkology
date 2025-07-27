@@ -11,7 +11,7 @@ export default function ContentDiscovery() {
         <div className="col-span-2">
           <ContentFeed />
         </div>
-        <div className="col-span-1 flex flex-col items-center min-h-full py-8">
+        <div className="col-span-1 flex flex-col  min-h-full py-8">
           <Sidebar />
         </div>
       </Container>
