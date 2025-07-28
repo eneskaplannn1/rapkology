@@ -10,7 +10,7 @@ export default function Title({
 }: {
   title: string;
   subtitle?: string;
-  icon: string | boolean;
+  icon?: string;
   className?: string;
   titleClassName?: string;
 }) {

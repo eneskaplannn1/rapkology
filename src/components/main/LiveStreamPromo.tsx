@@ -30,7 +30,7 @@ function LiveStreamPromoImages() {
     <>
       {" "}
       <div className="absolute left-20 bottom-32 z-32">
-        <img src="/Images/Twitch/boy.png" alt="Boy" width={419} height={437} />
+        <img src="/Images/Twitch/Boy.png" alt="Boy" width={419} height={437} />
       </div>
       <div className="absolute right-20 bottom-20 z-32">
         <img

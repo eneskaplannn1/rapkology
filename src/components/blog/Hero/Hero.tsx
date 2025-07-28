@@ -1,9 +1,8 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
-import type { Swiper as SwiperType } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -22,8 +21,6 @@ import { blogCards, heroSlides } from "@/data/constants";
 import Image from "next/image";
 
 export default function Hero() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
   return (
     <Section className="h-auto bg-[#F0E74D] relative  mt-20 pb-32!">
       <BgEffect />
@@ -49,7 +46,6 @@ export default function Hero() {
                 slidesPerView="auto"
                 loop={true}
                 className="w-full h-full"
-                onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex)}
               >
                 {heroSlides.map((slide) => (
                   <SwiperSlide key={slide.id} className="w-full h-full">
